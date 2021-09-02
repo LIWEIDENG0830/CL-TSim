@@ -32,7 +32,7 @@ To reproduce the results stated in our paper, you can apply the following steps.
 ## Self-Similarity and Cross-Similarity data generation
 Similar to Pre-processing part, we follow t2vec to generate data for self-similairty and cross-similairty.
 
-Specifically, you should step into experiment directory (of this repo) firstly, and then run the julia script as follows.
+Specifically, you should step into experiment directory (of this repo) firstly, and then run the julia scripts as follows.
 ```
 julia exp1_dataproducer.jl
 julia exp1_baseline_dataproducer.jl
