@@ -2,7 +2,9 @@
 This repo is about paper "Efficient Trajectory Similarity Computation with Contrastive Learning".
 
 # Requirements
-
+* Ubuntu OS
+* python >= 3.6 (Anaconda3 is recommended)
+* Pytorch 1.5+
 
 # Pre-processing
 We follow t2vec (https://github.com/boathit/t2vec) to do the pre-processing.
