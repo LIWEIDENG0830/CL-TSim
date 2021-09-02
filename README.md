@@ -47,7 +47,7 @@ To evaluate the performance of the trained model, you can generate the represent
 
 For example, if you want to reproduce the results of The effect of database size, you should do as follows.
 ```
-python exp1_output_traj_vectors.py
-python exp1_evaluate.py
+python exp1_output_traj_vectors.py  # In which, you should set the directories of the trained model and the test set, and the directory for saving representations of trajectories
+python exp1_evaluate.py             # In which, you should set the directory that contains the representations of trajectories
 ```
 where the first step is used to generate representations of trajectories in test set, and the second step is used the generated representations to do self-similarity experiment. 
