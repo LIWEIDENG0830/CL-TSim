@@ -13,4 +13,6 @@ $ cd preprocessing
 $ julia porto2h5.jl
 $ julia preprocess.jl
 ```
-After pre-processing, you can get the training data (i.e., train.trg and train.src) in data directory. 
+After pre-processing, you can get the training data (i.e., train.trg and train.src) in the data directory of t2vec. 
+
+# 
