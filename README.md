@@ -41,3 +41,4 @@ julia exp2_baseline_dataproducer.jl
 julia exp3_dataproducer.jl
 julia exp3_baseline_dataproducer.jl
 ```
+where "exp1" refers to The effect of database size, and "exp2" and "exp3" refer to Robustness (other experiments are also based on these data). 
