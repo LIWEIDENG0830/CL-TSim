@@ -4,7 +4,7 @@ This repo is about paper "Efficient Trajectory Similarity Computation with Contr
 # Pre-processing
 We follow t2vec (https://github.com/boathit/t2vec) to do the pre-processing.
 
-Specifficaly, you should download the codes of t2vec firstly. After that, you should change the working directory to t2vec. Then for the Porto dataset, you can do as follows.
+Specifically, you should download the codes of t2vec firstly. After that, you should change the working directory to t2vec. Then for the Porto dataset, you can do as follows.
 ```
 $ curl http://archive.ics.uci.edu/ml/machine-learning-databases/00339/train.csv.zip -o data/porto.csv.zip
 $ unzip data/porto.csv.zip
