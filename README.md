@@ -31,3 +31,4 @@ After training is done (around 1 hour by using GeForce GTX 1080 Ti), you can see
 To reproduce the results stated in our paper, you can apply the following steps.
 ## Self-Similarity and Cross-Similarity data generation
 Similar to Pre-processing part, we follow t2vec to generate data for self-similairty and cross-similairty.
+You should step into experiment directory (of this repo) firstly. Then run
