@@ -5,6 +5,9 @@ This repo is about paper "Efficient Trajectory Similarity Computation with Contr
 * Ubuntu OS
 * python >= 3.6 (Anaconda3 is recommended)
 * Pytorch >= 1.5.0 (Tested on 1.5.0)
+* transformers >= 2.9.0 (Tested on 2.9.0)
+* dataclasses >= 0.7 (Tested on 0.7)
+* 
 
 # Pre-processing
 We follow t2vec (https://github.com/boathit/t2vec) to do the pre-processing.
