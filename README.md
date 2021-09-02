@@ -31,4 +31,13 @@ After training is done (around 1 hour by using GeForce GTX 1080 Ti), you can see
 To reproduce the results stated in our paper, you can apply the following steps.
 ## Self-Similarity and Cross-Similarity data generation
 Similar to Pre-processing part, we follow t2vec to generate data for self-similairty and cross-similairty.
-You should step into experiment directory (of this repo) firstly. Then run
+
+Specifically, you should step into experiment directory (of this repo) firstly, and then run the julia script as follows.
+```
+julia exp1_dataproducer.jl
+julia exp1_baseline_dataproducer.jl
+julia exp2_dataproducer.jl
+julia exp2_baseline_dataproducer.jl
+julia exp3_dataproducer.jl
+julia exp3_baseline_dataproducer.jl
+```
