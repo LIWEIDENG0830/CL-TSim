@@ -1,6 +1,9 @@
 # CL-TSim
 This repo is about paper "Efficient Trajectory Similarity Computation with Contrastive Learning".
 
+# Requirements
+
+
 # Pre-processing
 We follow t2vec (https://github.com/boathit/t2vec) to do the pre-processing.
 
