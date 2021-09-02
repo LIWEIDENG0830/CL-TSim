@@ -29,5 +29,4 @@ After training is done (around 1 hour by using GeForce GTX 1080 Ti), you can see
 
 # Reproducibility
 To reproduce the results stated in our paper, you can apply the following steps.
-## Self-Similarity data generation
-## Cross-Similairty data generation
+## Self-Similarity and Cross-Similarity data generation
