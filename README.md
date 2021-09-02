@@ -25,4 +25,4 @@ To train CL-TSim, you should change the value of variable (i.e., datadir and cel
 ```
 python main.py
 ```
-After training is done (around 1 hour by using GeForce GTX 1080 Ti), you can see the trained model in log data directory.
+After training is done (around 1 hour by using GeForce GTX 1080 Ti), you can see the trained model in "log" directory.
