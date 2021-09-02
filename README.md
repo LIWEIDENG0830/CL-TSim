@@ -18,4 +18,7 @@ After pre-processing, you can get the training data (i.e., train.trg and train.s
 # Grid Pre-training
 To pre-train the representations of grids, you should run "grids_pretraining.py" in this repo. 
 
-P.S. you should change the value of variable (i.e., dataset_dir and vec_dir) in "grids_pretraining.py", in which dataset_dir is the directory of training data and vec_dir is to saving trained representations.
+P.S. you should change the value of variables (i.e., dataset_dir and vec_dir) in "grids_pretraining.py", in which dataset_dir is the directory of training data and vec_dir is to saving trained representations.
+
+# Model Training
+To train CL-TSim, you should change the value of variable (i.e., datadir and cell_embedding) in "config.py", where datadir is the directory of training data and 
