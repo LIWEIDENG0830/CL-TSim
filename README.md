@@ -16,4 +16,4 @@ $ julia preprocess.jl
 After pre-processing, you can get the training data (i.e., train.trg and train.src) in the data directory of t2vec. 
 
 # Grid Pre-training
-To pre-train the representations of grids, you should run 
+To pre-train the representations of grids, you should run "grid_pretraining.py" in this repo.
