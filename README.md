@@ -18,4 +18,4 @@ After pre-processing, you can get the training data (i.e., train.trg and train.s
 # Grid Pre-training
 To pre-train the representations of grids, you should run "grids_pretraining.py" in this repo. 
 
-P.S. you should change the value of variable (i.e., dataset_dir and vec_dir) in "grids_pretraining.py". 
+P.S. you should change the value of variable (i.e., dataset_dir and vec_dir) in "grids_pretraining.py", in which dataset_dir is the directory of training data and vec_dir is to saving trained representations.
