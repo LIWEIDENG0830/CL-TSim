@@ -9,7 +9,6 @@ def ranksearch_true(query, query_label, db, db_label):
     ranks = []
     precisions = 0
     # len_q, len_db
-    # 欧式距离越小 相似度越高
     dis_matrix = pairwise_distances(query, db, n_jobs=8)
     idxs = np.argsort(np.argsort(dis_matrix, -1), -1)
     for i in range(idxs.shape[0]):
