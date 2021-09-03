@@ -25,18 +25,18 @@ region = SpatialRegion(cityname,
 paramfile = "../data/$(region.name)-param-cell$(Int(cellsize))"
 region = deserialize(paramfile)
 
-#for rate in [0.2, 0.3, 0.4, 0.5, 0.6]
-#    querydbfile = joinpath(datapath, "$prefix-r$(Int(10rate))-querydb.h5")
-#    tfile = joinpath(datapath, "$prefix-r$(Int(10rate))-trj.t")
-#    labelfile = joinpath(datapath, "$prefix-r$(Int(10rate))-trj.label")
-#    vecfile = joinpath(datapath, "$prefix-r$(Int(10rate))-trj.h5")
-#    createQueryDB("../data/$cityname.h5", start, num_query, num_db,
-#              (x, y)->downsampling(x, y, rate),
-#              (x, y)->downsampling(x, y, rate);
-#              do_split=do_split,
-#              querydbfile=querydbfile)
-#    createTLabel(region, querydbfile; tfile=tfile, labelfile=labelfile)
-#end
+for rate in [0.2, 0.3, 0.4, 0.5, 0.6]
+   querydbfile = joinpath(datapath, "$prefix-r$(Int(10rate))-querydb.h5")
+   tfile = joinpath(datapath, "$prefix-r$(Int(10rate))-trj.t")
+   labelfile = joinpath(datapath, "$prefix-r$(Int(10rate))-trj.label")
+   vecfile = joinpath(datapath, "$prefix-r$(Int(10rate))-trj.h5")
+   createQueryDB("../data/$cityname.h5", start, num_query, num_db,
+             (x, y)->downsampling(x, y, rate),
+             (x, y)->downsampling(x, y, rate);
+             do_split=do_split,
+             querydbfile=querydbfile)
+   createTLabel(region, querydbfile; tfile=tfile, labelfile=labelfile)
+end
 
 prefix = "exp2/distorting"
 radius = 30.0
