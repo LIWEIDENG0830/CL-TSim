@@ -67,10 +67,6 @@ class LSTMSimCLR(nn.Module):
             print("No pretraining embeddings")
             return
         freeze = True if freeze else False
-        # 0 加载并跟着训练
-        # 1 加载但freeze
-        # 2 不加载并跟着训练
-        # 3 不加载但freeze
         self.embedding = self.embedding.from_pretrained(embedding_matrix, freeze=freeze)
 
     def forward(self, trajs, trajs_len):
